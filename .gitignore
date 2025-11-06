@@ -1,0 +1,9 @@
+*.pem
+*.key
+*.ppk
+*.crt
+*.env
+*.log
+*.pcap
+.vscode/
+__pycache__/
