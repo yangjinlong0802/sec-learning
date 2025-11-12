@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Wed Nov 12 04:17:59 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -oN docs/day6_nmap_vm_sV_O.txt 192.168.181.1
+Nmap scan report for 192.168.181.1
+Host is up (0.00024s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1521/tcp open  oracle-tns      Oracle TNS listener 11.2.0.1.0 (unauthorized)
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Device type: general purpose
+Running: Microsoft Windows 10|11
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_11
+OS details: Microsoft Windows 10 1703 or Windows 11 21H2
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 12 04:18:08 2025 -- 1 IP address (1 host up) scanned in 8.67 seconds

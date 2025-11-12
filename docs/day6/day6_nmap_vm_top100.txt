@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Wed Nov 12 04:12:26 2025 as: /usr/lib/nmap/nmap --privileged -sS --top-ports 100 -v -oN /home/kali/Desktop/sec-learning/docs/day6_nmap_vm_top100.txt 192.168.181.128
+Nmap scan report for 192.168.181.128
+Host is up (0.0000050s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Read data files from: /usr/share/nmap
+# Nmap done at Wed Nov 12 04:12:26 2025 -- 1 IP address (1 host up) scanned in 0.14 seconds
